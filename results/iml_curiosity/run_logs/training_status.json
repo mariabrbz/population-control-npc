@@ -1,0 +1,56 @@
+{
+    "GetFood": {
+        "checkpoints": [
+            {
+                "steps": 60357,
+                "file_path": "results/iml_curiosity/GetFood/GetFood-60357.onnx",
+                "reward": null,
+                "creation_time": 1650990274.998663,
+                "auxillary_file_paths": [
+                    "results/iml_curiosity/GetFood/GetFood-60357.pt"
+                ]
+            },
+            {
+                "steps": 226356,
+                "file_path": "results/iml_curiosity/GetFood/GetFood-226356.onnx",
+                "reward": null,
+                "creation_time": 1650991655.4133801,
+                "auxillary_file_paths": [
+                    "results/iml_curiosity/GetFood/GetFood-226356.pt"
+                ]
+            },
+            {
+                "steps": 242675,
+                "file_path": "results/iml_curiosity/GetFood/GetFood-242675.onnx",
+                "reward": null,
+                "creation_time": 1650991766.4530659,
+                "auxillary_file_paths": [
+                    "results/iml_curiosity/GetFood/GetFood-242675.pt"
+                ]
+            },
+            {
+                "steps": 328324,
+                "file_path": "results/iml_curiosity/GetFood/GetFood-328324.onnx",
+                "reward": null,
+                "creation_time": 1650996540.624644,
+                "auxillary_file_paths": [
+                    "results/iml_curiosity/GetFood/GetFood-328324.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 328324,
+            "file_path": "results/iml_curiosity/GetFood.onnx",
+            "reward": null,
+            "creation_time": 1650996540.624644,
+            "auxillary_file_paths": [
+                "results/iml_curiosity/GetFood/GetFood-328324.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

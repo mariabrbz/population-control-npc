@@ -1,0 +1,38 @@
+{
+    "GetFoodMany": {
+        "checkpoints": [
+            {
+                "steps": 38132,
+                "file_path": "results/many/GetFoodMany/GetFoodMany-38132.onnx",
+                "reward": null,
+                "creation_time": 1651078903.036567,
+                "auxillary_file_paths": [
+                    "results/many/GetFoodMany/GetFoodMany-38132.pt"
+                ]
+            },
+            {
+                "steps": 77765,
+                "file_path": "results/many/GetFoodMany/GetFoodMany-77765.onnx",
+                "reward": null,
+                "creation_time": 1651079353.6352708,
+                "auxillary_file_paths": [
+                    "results/many/GetFoodMany/GetFoodMany-77765.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 77765,
+            "file_path": "results/many/GetFoodMany.onnx",
+            "reward": null,
+            "creation_time": 1651079353.6352708,
+            "auxillary_file_paths": [
+                "results/many/GetFoodMany/GetFoodMany-77765.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

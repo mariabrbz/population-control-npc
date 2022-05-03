@@ -1,0 +1,65 @@
+{
+    "GetFood": {
+        "checkpoints": [
+            {
+                "steps": 167857,
+                "file_path": "results/test_iml1/GetFood/GetFood-167857.onnx",
+                "reward": null,
+                "creation_time": 1650976966.480331,
+                "auxillary_file_paths": [
+                    "results/test_iml1/GetFood/GetFood-167857.pt"
+                ]
+            },
+            {
+                "steps": 270123,
+                "file_path": "results/test_iml1/GetFood/GetFood-270123.onnx",
+                "reward": null,
+                "creation_time": 1650977639.8835998,
+                "auxillary_file_paths": [
+                    "results/test_iml1/GetFood/GetFood-270123.pt"
+                ]
+            },
+            {
+                "steps": 306564,
+                "file_path": "results/test_iml1/GetFood/GetFood-306564.onnx",
+                "reward": null,
+                "creation_time": 1650977862.2980669,
+                "auxillary_file_paths": [
+                    "results/test_iml1/GetFood/GetFood-306564.pt"
+                ]
+            },
+            {
+                "steps": 345146,
+                "file_path": "results/test_iml1/GetFood/GetFood-345146.onnx",
+                "reward": null,
+                "creation_time": 1650978142.752508,
+                "auxillary_file_paths": [
+                    "results/test_iml1/GetFood/GetFood-345146.pt"
+                ]
+            },
+            {
+                "steps": 370131,
+                "file_path": "results/test_iml1/GetFood/GetFood-370131.onnx",
+                "reward": null,
+                "creation_time": 1650978274.3724868,
+                "auxillary_file_paths": [
+                    "results/test_iml1/GetFood/GetFood-370131.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 370131,
+            "file_path": "results/test_iml1/GetFood.onnx",
+            "reward": null,
+            "creation_time": 1650978274.3724868,
+            "auxillary_file_paths": [
+                "results/test_iml1/GetFood/GetFood-370131.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "GetFood": {
+        "checkpoints": [
+            {
+                "steps": 442082,
+                "file_path": "results/last_trial/GetFood/GetFood-442082.onnx",
+                "reward": null,
+                "creation_time": 1651002159.854302,
+                "auxillary_file_paths": [
+                    "results/last_trial/GetFood/GetFood-442082.pt"
+                ]
+            },
+            {
+                "steps": 499988,
+                "file_path": "results/last_trial/GetFood/GetFood-499988.onnx",
+                "reward": null,
+                "creation_time": 1651002652.9922628,
+                "auxillary_file_paths": [
+                    "results/last_trial/GetFood/GetFood-499988.pt"
+                ]
+            },
+            {
+                "steps": 662459,
+                "file_path": "results/last_trial/GetFood/GetFood-662459.onnx",
+                "reward": null,
+                "creation_time": 1651003931.156503,
+                "auxillary_file_paths": [
+                    "results/last_trial/GetFood/GetFood-662459.pt"
+                ]
+            },
+            {
+                "steps": 662459,
+                "file_path": "results/last_trial/GetFood/GetFood-662459.onnx",
+                "reward": null,
+                "creation_time": 1651004191.2527301,
+                "auxillary_file_paths": [
+                    "results/last_trial/GetFood/GetFood-662459.pt"
+                ]
+            },
+            {
+                "steps": 892034,
+                "file_path": "results/last_trial/GetFood/GetFood-892034.onnx",
+                "reward": null,
+                "creation_time": 1651006074.5546129,
+                "auxillary_file_paths": [
+                    "results/last_trial/GetFood/GetFood-892034.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 892034,
+            "file_path": "results/last_trial/GetFood.onnx",
+            "reward": null,
+            "creation_time": 1651006074.5546129,
+            "auxillary_file_paths": [
+                "results/last_trial/GetFood/GetFood-892034.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

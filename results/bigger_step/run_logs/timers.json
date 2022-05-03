@@ -1,0 +1,89 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650998161",
+        "python_version": "3.7.13 (default, Mar 16 2022, 20:46:34) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+        "command_line_arguments": "/usr/local/bin/mlagents-learn config/getFood.yaml --run-id=bigger_step --resume",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.5",
+        "end_time_seconds": "1650998170"
+    },
+    "total": 8.960573583,
+    "count": 1,
+    "self": 0.007709374000000935,
+    "children": {
+        "run_training.setup": {
+            "total": 0.017070999999999836,
+            "count": 1,
+            "self": 0.017070999999999836
+        },
+        "TrainerController.start_learning": {
+            "total": 8.935793209,
+            "count": 1,
+            "self": 0.0002828340000000651,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.827385708,
+                    "count": 1,
+                    "self": 7.789272208,
+                    "children": {
+                        "demo_to_buffer": {
+                            "total": 1.0381134999999997,
+                            "count": 2,
+                            "self": 9.23739999976192e-05,
+                            "children": {
+                                "load_demonstration": {
+                                    "total": 0.02348966699999977,
+                                    "count": 2,
+                                    "self": 0.021871541999999522,
+                                    "children": {
+                                        "read_file": {
+                                            "total": 0.0016181250000002478,
+                                            "count": 2,
+                                            "self": 0.0016181250000002478
+                                        }
+                                    }
+                                },
+                                "make_demo_buffer": {
+                                    "total": 1.0145314590000023,
+                                    "count": 2,
+                                    "self": 0.15742175900004263,
+                                    "children": {
+                                        "steps_from_proto": {
+                                            "total": 0.8571096999999597,
+                                            "count": 8492,
+                                            "self": 0.4493222369998531,
+                                            "children": {
+                                                "_process_rank_one_or_two_observation": {
+                                                    "total": 0.4077874630001066,
+                                                    "count": 33968,
+                                                    "self": 0.4077874630001066
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.10812466700000023,
+                    "count": 1,
+                    "self": 0.00032120900000087715,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.10780345799999935,
+                            "count": 1,
+                            "self": 0.10780345799999935
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

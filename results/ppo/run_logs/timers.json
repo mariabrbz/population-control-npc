@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1651078527",
+        "python_version": "3.7.13 (default, Mar 16 2022, 20:46:34) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+        "command_line_arguments": "/usr/local/bin/mlagents-learn config/getFoodMany.yaml",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.5",
+        "end_time_seconds": "1651078539"
+    },
+    "total": 11.955752375,
+    "count": 1,
+    "self": 0.00798304199999933,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01694029100000005,
+            "count": 1,
+            "self": 0.01694029100000005
+        },
+        "TrainerController.start_learning": {
+            "total": 11.930829042,
+            "count": 1,
+            "self": 0.0001485839999997296,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.93061825,
+                    "count": 1,
+                    "self": 11.93061825
+                },
+                "TrainerController._save_models": {
+                    "total": 6.220799999923088e-05,
+                    "count": 1,
+                    "self": 6.220799999923088e-05
+                }
+            }
+        }
+    }
+}

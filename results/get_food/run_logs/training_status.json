@@ -1,0 +1,65 @@
+{
+    "GetFoodMany": {
+        "checkpoints": [
+            {
+                "steps": 309825,
+                "file_path": "results/get_food/GetFoodMany/GetFoodMany-309825.onnx",
+                "reward": null,
+                "creation_time": 1651082843.577983,
+                "auxillary_file_paths": [
+                    "results/get_food/GetFoodMany/GetFoodMany-309825.pt"
+                ]
+            },
+            {
+                "steps": 321450,
+                "file_path": "results/get_food/GetFoodMany/GetFoodMany-321450.onnx",
+                "reward": null,
+                "creation_time": 1651083003.7569249,
+                "auxillary_file_paths": [
+                    "results/get_food/GetFoodMany/GetFoodMany-321450.pt"
+                ]
+            },
+            {
+                "steps": 330583,
+                "file_path": "results/get_food/GetFoodMany/GetFoodMany-330583.onnx",
+                "reward": null,
+                "creation_time": 1651083106.647339,
+                "auxillary_file_paths": [
+                    "results/get_food/GetFoodMany/GetFoodMany-330583.pt"
+                ]
+            },
+            {
+                "steps": 333095,
+                "file_path": "results/get_food/GetFoodMany/GetFoodMany-333095.onnx",
+                "reward": null,
+                "creation_time": 1651083141.807752,
+                "auxillary_file_paths": [
+                    "results/get_food/GetFoodMany/GetFoodMany-333095.pt"
+                ]
+            },
+            {
+                "steps": 336116,
+                "file_path": "results/get_food/GetFoodMany/GetFoodMany-336116.onnx",
+                "reward": null,
+                "creation_time": 1651083213.371457,
+                "auxillary_file_paths": [
+                    "results/get_food/GetFoodMany/GetFoodMany-336116.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 336116,
+            "file_path": "results/get_food/GetFoodMany.onnx",
+            "reward": null,
+            "creation_time": 1651083213.371457,
+            "auxillary_file_paths": [
+                "results/get_food/GetFoodMany/GetFoodMany-336116.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

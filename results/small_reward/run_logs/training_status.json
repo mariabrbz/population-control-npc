@@ -1,0 +1,29 @@
+{
+    "GetFood": {
+        "checkpoints": [
+            {
+                "steps": 58326,
+                "file_path": "results/small_reward/GetFood/GetFood-58326.onnx",
+                "reward": null,
+                "creation_time": 1650986575.837227,
+                "auxillary_file_paths": [
+                    "results/small_reward/GetFood/GetFood-58326.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 58326,
+            "file_path": "results/small_reward/GetFood.onnx",
+            "reward": null,
+            "creation_time": 1650986575.837227,
+            "auxillary_file_paths": [
+                "results/small_reward/GetFood/GetFood-58326.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}
